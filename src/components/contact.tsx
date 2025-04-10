@@ -72,32 +72,7 @@ const Contact = () => {
           </form>
         </div>
 
-        {/* Contact Information */}
-        <div className="mt-12 text-center md:text-left">
-          <h3 className="text-xl font-semibold text-gray-800">Contact Information</h3>
-          <p className="mt-2 text-muted-foreground">
-            <strong>Email:</strong> support@careerforgerai.com
-            <br />
-            <strong>Phone:</strong> +1-800-CAREERAI
-            <br />
-            <strong>Address:</strong> 123 Innovation Drive, Tech City, TC 12345
-            <br />
-            <strong>Company:</strong> Rakibedynamics
-          </p>
-        </div>
-
-        {/* Call to Action */}
-        <div className="mt-12 text-center">
-          <p className="text-muted-foreground">
-            Ready to ace your next interview? Start practicing with our AI-driven
-            mock interviews today!
-          </p>
-          <Link to="/take-an-interview" className="mt-4 inline-block">
-            <Button>
-              Take an Interview <Sparkles className="ml-2" />
-            </Button>
-          </Link>
-        </div>
+       
       </Container>
     </div>
   );

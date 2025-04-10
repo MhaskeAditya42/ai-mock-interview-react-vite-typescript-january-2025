@@ -2,6 +2,14 @@ import { Container } from "@/components/container";
 import { Button } from "@/components/ui/button";
 import { Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
+import mhaske from "../assets/mhaske.jpeg";
+import nawale from "../assets/nawale.jpeg";
+import patil from "../assets/patil.jpeg";
+import prasad from "../assets/prasad.jpeg";
+import mulhar from "../assets/mulhar.jpeg";
+import rakibe from "../assets/mentor_2.jpeg";
+import deepa from "../assets/mentor_1.jpeg";
+
 
 const AboutUs = () => {
   return (
@@ -59,54 +67,112 @@ const AboutUs = () => {
             Meet the Team
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
-            {/* Team Member 1 */}
-            <div className="flex flex-col items-center p-4 bg-gray-100 rounded-lg shadow-md">
+          <div className="flex flex-col items-center p-4 bg-gray-100 rounded-lg shadow-md">
               <img
-                src="/assets/img/team-member1.jpg"
+                src={rakibe}
                 alt="Team Member 1"
                 className="w-32 h-32 rounded-full object-cover"
               />
               <h4 className="mt-4 text-lg font-semibold text-gray-800">
-                John Doe
+                Sachin Rakibe 
               </h4>
-              <p className="text-muted-foreground">Lead Developer</p>
+              <p className="text-muted-foreground">Founder & CEO Rakibe Dynamics </p>
               <p className="mt-2 text-sm text-center text-gray-600">
-                John is passionate about using AI to create tools that make a
-                real impact on people’s careers.
+                Sachin is a founder of Rakibe Dynamics which is a bootstrap startup developing AI based solutions
+              </p>
+            </div>
+            {/* Mentor 2  */}
+            <div className="flex flex-col items-center p-4 bg-gray-100 rounded-lg shadow-md">
+              <img
+                src={deepa}
+                alt="Team Member 1"
+                className="w-32 h-32 rounded-full object-cover"
+              />
+              <h4 className="mt-4 text-lg font-semibold text-gray-800">
+               Prof Deepa Abin 
+              </h4>
+              <p className="text-muted-foreground">Mentor</p>
+              <p className="mt-2 text-sm text-center text-gray-600">
+                She is a mentor and guide of the project. Her inputs in devloping solution plays big role
+              </p>
+            </div>
+            {/* Team Member 1 */}
+
+            <div className="flex flex-col items-center p-4 bg-gray-100 rounded-lg shadow-md">
+              <img
+                src={mhaske}
+                alt="Team Member 1"
+                className="w-32 h-32 rounded-full object-cover"
+              />
+              <h4 className="mt-4 text-lg font-semibold text-gray-800">
+               Aditya Mhaske
+              </h4>
+              <p className="text-muted-foreground">Developer</p>
+              <p className="mt-2 text-sm text-center text-gray-600">
+                Aditya is a developer specialised in implementing frontend and backend services 
               </p>
             </div>
 
             {/* Team Member 2 */}
             <div className="flex flex-col items-center p-4 bg-gray-100 rounded-lg shadow-md">
               <img
-                src="/assets/img/team-member2.jpg"
+                src={nawale}
                 alt="Team Member 2"
                 className="w-32 h-32 rounded-full object-cover"
               />
               <h4 className="mt-4 text-lg font-semibold text-gray-800">
-                Jane Smith
+                Aditya Nawale
               </h4>
-              <p className="text-muted-foreground">Product Manager</p>
+              <p className="text-muted-foreground">Developer</p>
               <p className="mt-2 text-sm text-center text-gray-600">
-                Jane ensures that CareerForgerAI meets the needs of job seekers
-                with a user-first approach.
+                Aditya is an AI expert plays important role in developing this solution.
               </p>
             </div>
 
             {/* Team Member 3 */}
             <div className="flex flex-col items-center p-4 bg-gray-100 rounded-lg shadow-md">
               <img
-                src="/assets/img/team-member3.jpg"
+                src={patil}
                 alt="Team Member 3"
                 className="w-32 h-32 rounded-full object-cover"
               />
               <h4 className="mt-4 text-lg font-semibold text-gray-800">
-                Alex Brown
+               Mayur Patil
               </h4>
-              <p className="text-muted-foreground">AI Specialist</p>
+              <p className="text-muted-foreground">Developer</p>
               <p className="mt-2 text-sm text-center text-gray-600">
-                Alex drives the AI innovation behind CareerForgerAI, making it
-                smarter every day.
+              Mayur is a React Developer plays important role in developing this solution.
+
+              </p>
+            </div>
+            <div className="flex flex-col items-center p-4 bg-gray-100 rounded-lg shadow-md">
+              <img
+                src={prasad}
+                alt="Team Member 3"
+                className="w-32 h-32 rounded-full object-cover"
+              />
+              <h4 className="mt-4 text-lg font-semibold text-gray-800">
+               Prasad Rathod
+              </h4>
+              <p className="text-muted-foreground">Developer</p>
+              <p className="mt-2 text-sm text-center text-gray-600">
+              Prasad is a React Developer plays important role in developing this solution.
+
+              </p>
+            </div>
+            <div className="flex flex-col items-center p-4 bg-gray-100 rounded-lg shadow-md">
+              <img
+                src={mulhar}
+                alt="Team Member 3"
+                className="w-32 h-32 rounded-full object-cover"
+              />
+              <h4 className="mt-4 text-lg font-semibold text-gray-800">
+                Sumit Mulhar 
+              </h4>
+              <p className="text-muted-foreground">Developer</p>
+              <p className="mt-2 text-sm text-center text-gray-600">
+              Sumit is an AI expert plays important role in developing this solution.
+
               </p>
             </div>
           </div>
